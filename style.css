@@ -1,0 +1,31 @@
+#header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: right;
+}
+#nav-bar {
+    align-self: center;
+}
+
+#header-img {
+    width: 75px;
+    height: auto;
+}
+
+#video-holder {
+    position: absolute;
+    margin-top: 33px;
+}
+
+#video { 
+    position: relative;
+    z-index: 1;
+    margin-top: 33px;
+}
