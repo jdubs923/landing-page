@@ -79,4 +79,5 @@
 .price-detail {
     display: flex;
     flex-direction: column;
+    padding-left: 30px;
 }
