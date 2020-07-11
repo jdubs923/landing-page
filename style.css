@@ -1,17 +1,26 @@
-#header {
-    display: flex;
+/* Fixed Flex Navbar */
+
+.container {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     z-index: 2;
 }
 
-.nav-bar {
+ul {
     display: flex;
-    justify-content: right;
+    list-style-type: none;
+    align-items: center;
+    padding-left: 0;
 }
-#nav-bar {
-    align-self: center;
+
+li {
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
 }
 
 #header-img {
@@ -19,13 +28,21 @@
     height: auto;
 }
 
+#space {
+    flex: 1;
+}
+
+/* Embedded Video */
+
 #video-holder {
     position: absolute;
-    margin-top: 33px;
+    margin-top: 65px;
+    text-align: center;
 }
 
 #video { 
     position: relative;
     z-index: 1;
-    margin-top: 33px;
+    margin-top: 65px;
+    text-align: center;
 }
