@@ -10,24 +10,61 @@
         <header id="header">
             <div class="container">
                 <nav id="nav-bar">
-                    <ul>
-                        <li><img id="header-img" src="./images/Source-code-icon.svg" alt="logo"></li>
+                    <ul class="nav-bar">
+                        <li class="nav-menu"><img id="header-img" src="./images/Source-code-icon.svg" alt="logo"></li>
                         <li id="space">space</li>
-                        <li><a class="nav-link" href="">Link 1</a></li>
-                        <li><a class="nav-link" href="">Link 2</a></li>
-                        <li><a class="nav-link" href="">Link 3</a></li>
+                        <li class="nav-menu"><a class="nav-link" href="#benifits">Benifits</a></li>
+                        <li class="nav-menu"><a class="nav-link" href="#video">Our Process</Pre></a></li>
+                        <li class="nav-menu"><a class="nav-link" href="#pricing">Pricing</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
         
-        <iframe id="video-holder"></iframe>
-        <iframe id="video" width="853" height="480" src="https://www.youtube.com/embed/j2G1IUpRiPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        
+        <div id=benifits>
+            <ul>
+                <li>Professional Website</li>
+                <li>Real Time Support</li>
+                <li>Sleek Design</li>
+            </ul>
+        </div>
+
+        <div class="video-container">
+            <iframe id="video-holder"></iframe>
+            <iframe id="video" width="853" height="480" src="https://www.youtube.com/embed/j2G1IUpRiPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="pricing" id="pricing">
+            <div class="price">
+                <h3 class="price-title">Basic</h3>
+                <ul class="price-detail">
+                    <li class="price-list">item 1</li>
+                    <li class="price-list">item 2</li>
+                    <li class="price-list">item 3</li>
+                </ul>
+            </div>
+            <div class="price">
+                <h3 class="price-title">Basic</h3>
+                <ul class="price-detail">
+                    <li class="price-list">item 1</li>
+                    <li class="price-list">item 2</li>
+                    <li class="price-list">item 3</li>
+                </ul>
+            </div>
+            <div class="price">
+                <h3 class="price-title">Basic</h3>
+                <ul class="price-detail">
+                    <li class="price-list">item 1</li>
+                    <li class="price-list">item 2</li>
+                    <li class="price-list">item 3</li>
+                </ul>
+            </div>
+        </div>
+
         <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
             <label for="email">Email</label>
                 <input type="email" id="email" name="email" placeholder="Email Address"><br>
-            <input id="submit" type="submit" name="submit">
+            <input id="submit" type="submit" name="submit" value="Learn More">
         </form>
 
         <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>

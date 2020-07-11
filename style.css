@@ -8,18 +8,18 @@
     z-index: 2;
 }
 
-ul {
+.nav-bar {
     display: flex;
     list-style-type: none;
     align-items: center;
     padding-left: 0;
 }
 
-li {
+.nav-menu {
     padding-right: 10px;
 }
 
-a {
+.nav-link {
     text-decoration: none;
 }
 
@@ -32,17 +32,51 @@ a {
     flex: 1;
 }
 
+/* Benifits Section */
+
+#benifits {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
 /* Embedded Video */
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
 
 #video-holder {
     position: absolute;
-    margin-top: 65px;
     text-align: center;
 }
 
 #video { 
     position: relative;
     z-index: 1;
-    margin-top: 65px;
     text-align: center;
+}
+
+/* Pricing */
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.price  {
+    border: solid black 1px;
+    margin-left: 50px;
+    width: 200px;
+}
+
+.price-title {
+    text-align: center;
+}
+
+.price-detail {
+    display: flex;
+    flex-direction: column;
 }
