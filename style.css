@@ -6,6 +6,7 @@
     left: 0;
     width: 100%;
     z-index: 2;
+    background-color: #a1aea9;
 }
 
 .nav-bar {
@@ -32,19 +33,32 @@
     flex: 1;
 }
 
+/* Main Body */
+
+.main-body {
+    left: 0;
+    width: 100%;
+}
 /* Benifits Section */
 
 #benifits {
     margin-top: 65px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #80e8cb;
 }
 
+.benifits-title {
+    margin-bottom: 0;
+}
 /* Embedded Video */
 
 .video-container {
     display: flex;
     justify-content: center;
+    margin: 5px 0 5px 0;
+    background-color: #fbfbfb;
 }
 
 #video-holder {
@@ -63,17 +77,22 @@
 .pricing {
     display: flex;
     justify-content: center;
-    margin-top: 35px;
+    padding: 35px 0 35px 0;
+    background-color: #80e8cb;
 }
 
 .price  {
-    border: solid black 1px;
     margin-left: 50px;
     width: 200px;
+    border-radius: 3px;
+    background-color: #fbfbfb;
 }
 
 .price-title {
     text-align: center;
+    background-color: #fb9c22;
+    margin: 0;
+    padding: 10px 0 10px 0
 }
 
 .price-detail {
