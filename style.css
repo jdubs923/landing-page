@@ -5,6 +5,10 @@ body {
     margin: 0;
 }
 
+a {
+    color: black;
+}
+
 /* Fixed Flex Navbar */
 
 .container {
@@ -38,6 +42,7 @@ body {
 
 #space {
     flex: 1;
+    font-size: 30px;
 }
 
 /* Benifits Section */
@@ -50,9 +55,32 @@ body {
     background-color: #80e8cb;
 }
 
+.bullet {
+    width: 30px;
+    height: auto;
+    padding-right: 15px;
+}
+
 .benifits-title {
     margin-bottom: 0;
 }
+
+@media (max-width: 400px) {
+    .benifits-title {
+        font-size: 15px;
+    }
+}
+
+#benifits-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.benifits-item {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
 /* Embedded Video */
 
 .video-container {
@@ -122,5 +150,14 @@ body {
     align-items: center;
     padding: 16px auto 16px auto;
     margin: 0;
-    height: 69px;
+    height: 45px;
+}
+
+#email {
+    margin: 5px 0 5px 0;
+}
+
+#submit {
+    background-color: #fb9c22;
+    margin-bottom: 10px;
 }
